@@ -7,48 +7,47 @@
     <h2>Frequently Asked Questions</h2>
 
     <dl>
+
       <dt>1. Why would you waste your time on this?</dt>
+
       <dd><p>
-
-        I guess I live in a fantasy land of my own
-        creation. In my world, it is perpetually 1987 and
-        I spend the majority of my time on a VT240
-        terminal writing development tools for VMS. At
-        night I watch "Space : 1999" reruns and write
-        games in assembly language for 16 bit DOS
-        systems.
-
+        I guess I live in a fantasy land of my own creation.
+        In my world, it is perpetually 1987 and I spend the majority of my time on a VT240 terminal writing development tools for VMS.
+        At night I watch "Space : 1999" reruns and write games in assembly language for 16 bit DOS systems.
       </p>
 
       <p>
-
-        I enjoy using Lynx. It strips away the cruft of
-        the web. I have never seen a pop-up add using
-        a text based browser. There's just too few people
-        using Lynx to make it profitable. But the flip
-        side of that is there are <em>very</em> few web
-        pages optimized to look good to a text based
-        browser.
-
+        I enjoy using Lynx.
+        It strips away the cruft of the modern web.
+        I have never seen a pop-up add using a text based browser.
+        There are just too few people using Lynx to make it profitable.
+        But the flip side of that is there are <em>very</em> few web pages optimized to look good to a text based browser.
       </p>
 
       <p>
-
-        And that's why I'm doing this: to share a few
-        sites that are pleasant to look at when using an
-        old, text-based browser.
-        
+        And that's why I'm doing this: to share a few sites that are pleasant to look at when using an old, text-based browser.
       </p></dd>
 
       <dt>2. Cool! I Want to Add A Page!</dt>
+
       <dd><p>
-
-        Great! Fork this project on
-        <a href="https://github.com/OhMeadhbh/bobcat">
-          GitHub</a>, make some changes and send me a
-        pull request.
-
+        Great! Fork this project on <a href="https://github.com/OhMeadhbh/bobcat">GitHub</a>, make some changes and send me a pull request.
       </p></dd>
 
+      <dt>3. Why would I mention Video players like <strong>mpv</strong>?</dt>
+
+      <dd><p>
+        Sure, it seems a bit weird at first, but if your terminal supports <a href="https://en.wikipedia.org/wiki/Sixel">sixel graphics</a> you can convince the <a href="https://mpv.io/">mpv</a> video player to render video to the terminal with a command like this:
+      </p>
+
+      <pre>
+  mpv --no-config --vo=sixel --profile=sw-fast --really-quiet --vo-sixel-reqcolors=0 --ao='pulse' &lt;video file&gt;
+      </pre></dd>
+
+      <p>
+        Who knew?
+      </p>
+    </dl>
+    
   </body>
 </html>
