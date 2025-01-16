@@ -37,17 +37,17 @@
       <dt>3. Why would I mention Video players like <strong>mpv</strong>?</dt>
 
       <dd><p>
-        Sure, it seems a bit weird at first, but if your terminal supports <a href="https://en.wikipedia.org/wiki/Sixel">sixel graphics</a> you can convince the <a href="https://mpv.io/">mpv</a> video player to render video to the terminal with a command like this:
+        Sure, it seems a bit weird at first, but if your terminal supports <a href="https://en.wikipedia.org/wiki/Sixel">sixel graphics</a> you can convince the <a href="https://mpv.io/">mpv</a> video player to render video to the terminal with a (*nix) command like this:
       </p>
 
-      <pre>
-  mpv --no-config --vo=sixel --profile=sw-fast --really-quiet --vo-sixel-reqcolors=0 --ao='pulse' &lt;video file&gt;
-      </pre></dd>
+      <pre>      mpv --no-config --vo=sixel --profile=sw-fast --really-quiet \
+          --vo-sixel-reqcolors=0 --ao='pulse' &lt;video file&gt;</pre>
 
       <p>
         Who knew?
-      </p>
+      </p></dd>
+
     </dl>
-    
+
   </body>
 </html>
