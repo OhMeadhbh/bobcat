@@ -26,7 +26,7 @@
       We also have a <a href="faq.html">FAQ</a>.
 
     </p>
-    
+
     <h2>Search Engines</h2>
 
     <dl>
@@ -36,9 +36,19 @@
         The good people at DuckDuckGo maintain a low complexity site that's easy to use and has zero cruft.
       </p></dd>
 
+      <dt><a href="https://baresearch.org/">BareSearch.Org (a SearXNG instance)</a></dt>
+
+      <dd><p>
+        <a href="https://github.com/searxng/searxng">SearXNG</a> is an open source meta-search engine which presents a decent text-based interface into Google's search engine.
+        The SearXNG project maintains a list of public instances at <a href="https://searx.space/">searx.space</a>, but it requires JavaScript to render.
+        I picked BareSearch at random as an example instance, but if you have a browser that supports JavaScript, you can pick a different instance.
+        SearXNG seems to work well with Lynx, but generates a "Too Many Requests" error when used with EWW.
+        YMMV.
+      </p></dd>
+
     </dl>
 
-    <h2>News Sites</h2>
+    <h2>News</h2>
 
     <dl>
 
@@ -47,7 +57,7 @@
       <dd><p>
         NPR maintains a "thin" version of their site which works well with text-based browsers.
       </p></dd>
-      
+
       <dt><a href="http://lite.cnn.com/en">CNN Headlines</a></dt>
 
       <dd><p>
@@ -58,12 +68,12 @@
       <dt><a href="https://www.cbc.ca/lite/news">CBC Lite News</a></dt>
 
       <dd><p>
-        A pleasantly rendered news feed from the Canadian Broadcasting Corporation. 
+        A pleasantly rendered news feed from the Canadian Broadcasting Corporation.
       </p></dd>
 
 <!-- Removing 68k.news due to numerous problems with TLS certificates
-     and now it seems like outbound links just simply fail. -->     
-      
+     and now it seems like outbound links just simply fail. -->
+
 <!--
       <dt><a href="https://68k.news">68k.news : Headlines from the Future</a></dt>
 
@@ -73,13 +83,6 @@
       </dd>
 -->
 
-      <dt><a href="https://news.ycombinator.com/">Hacker News</a></dt>
-
-      <dd><p>
-        If you're unfamiliar with Hacker News, it's like the SlashDot of old, but with a simplified landing page and slightly less drama.
-        Sadly, the search function only works with JavaScript enabled, so neither Lynx nor EWW work with it.
-      </p></dd>
-
       <dt><a href="https://www.csmonitor.com/layout/set/text/textedition">The Christian Science Monitor / Text</a></dt>
 
       <dd><p>
@@ -87,7 +90,7 @@
         Despite being named after the <a href="https://en.wikipedia.org/wiki/Christian_Science">Christian Science</a> religious movement founded by Mary Baker Eddy, it does not seem to evangelize and does not approach news stories from a religious viewpoint.
         It does, however, provide a very nice "lite" site which renders well in Lynx and EWW.
       </p></dd>
-      
+
       <dt><a href="https://lite.pbs.org/">PBS : Public Broadcasting Service</a></dt>
 
       <dd><p>
@@ -102,6 +105,58 @@
         I don't know much about this organization, but like that they have several <a href="https://lite.poandpo.com/home/rss">RSS feeds</a>.
       </p></dd>
 
+    </dl>
+
+    <h2>News Agregators and Interfaces</h2>
+
+    <dl>
+
+      <dt><a href="https://neuters.de/">Neuters</a></dt>
+
+      <dd><p>
+        Neuters uses Reuters' public APIs to present a text-oriented interface to the day's news.
+      </dd></p>
+
+      <dt><a href="https://legiblenews.com/">Legible News</a></dt>
+
+      <dd><p>
+        Legible News is a curated collection of interesting, recent content with a reasonable text interface.
+      </p></dd>
+
+      <dt><a href="https://brutalist.report/topic/news?limit=5">The Brutalist Report</a></dt>
+
+      <dd><p>
+        This site aggregates news from several sourcs including the NYT, NPR, Al Jazeera and Fox.
+        Most of the links point to full-HTML / JavaScript enabled pages, however.
+        YMMV.
+      </p></dd>
+
+      <dt><a href="https://skimfeed.com/">Skimfeed</a></dt>
+
+      <dd><p>
+        Another aggregator.
+        I can't say that it renders beautifully in text-based browsers, but it does index a broad variety of tech-lifestyle pages (Lifehacker, Fast Company, Engadget, etc.)
+      </p></dd>
+    </dl>
+
+    <h2>Weather</h2>
+
+    <dl>
+
+      <dt><a href="https://wttr.in/">Text Weather Report</a></dt>
+
+      <dd><p>
+        This is kind of nice.
+        It looks like it's using IP geolocation to give you a regional, text-based weather forecast.
+        It doesn't render well in Lynx unless your terminal is 127 or more columns wide, but renders fine in EWW.
+      </p></dd>
+
+    </dl>
+
+    <h2>Social Responsibility</h2>
+
+    <dl>
+
       <dt><a href="https://text.hrw.org/">Human Rights Watch (text version)</a></dt>
 
       <dd><p>
@@ -109,12 +164,19 @@
         The politics of civil rights abuses can be controversial in some corners of the Internet.
         But I include it on this list because it renders well without JavaScript and in a text-only browser.
       </p></dd>
-      
+
     </dl>
 
-    <h2>Interesting</h2>
+    <h2>Discussion Forums</h2>
 
     <dl>
+
+      <dt><a href="https://news.ycombinator.com/">Hacker News</a></dt>
+
+      <dd><p>
+        If you're unfamiliar with Hacker News, it's like the SlashDot of old, but with a simplified landing page and slightly less drama.
+        Sadly, the search function only works with JavaScript enabled, so neither Lynx nor EWW work with it.
+      </p></dd>
 
       <dt><a href="https://lobste.rs/">Lobsters</a></dt>
 
@@ -124,25 +186,29 @@
         Posting a comment via Lynx or EWW is hit-or-miss, but browsing comments seems to work.
       </p></dd>
 
-      <dt><a href="https://playbook.cio.gov/">The Digital Services Playbook</a></dt>
+      <dt><a href="https://slashdot.org/">SlashDot</a></dt>
 
       <dd><p>
-        From the U.S. Digital Services, the playbook lists thirteen key "plays" describing successful "Best Common Practices."
+        One of the original tech-themed internet comments sections.
+        It's still surprisingly readable via the textweb.
+        <a href="https://alterslash.org/">Alterslash</a> bills itself as a "digest" of Slashdot content.
+        It's slightly easier to read, but only presents the most recent articles.
       </p></dd>
 
-      <dt><a href="http://info.cern.ch/hypertext/WWW/TheProject.html">World Wide Web (The Project)</a></dt>
+    </dl>
+
+    <h2>Infotainment</h2>
+
+    <dl>
+
+      <dt><a href="https://www.dailymail.co.uk/textbased/channel-561/index.html">Daily Mail Online (lite version)</a></dt>
 
       <dd><p>
-        This is the world's first web page, archived at CERN and is delightfully spartan.
+        For people who like their news with a dash of infotainment, the Daily Mail provides a lite version of the day's events.
+        The text-based rendering isn't the best, you have to tab past quite a few topic headings before reaching the list of articles.
+        But articles seem to be rendered well once you get to them.
       </p></dd>
 
-      <dt><a href="https://wttr.in/">Text Weather Report</a></dt>
-
-      <dd><p>
-        This is kind of nice.
-        It looks like it's using IP geolocation to give you a regional, text-based weather forecast.
-        It doesn't render well in Lynx unless your terminal is 127 or more columns wide, but renders fine in EWW.
-      </p></dd>
     </dl>
 
     <h2>Collections</h2>
@@ -157,32 +223,55 @@
         Some of the entries seem to be a bit dated, however.
       </p></dd>
 
+      <dt><a href="https://1mb.club/">1MB Club</a></dt>
+
+      <dd><p>
+        This site is a human curated list of web sites that are "useful" but are smaller than 1 MegaByte.
+        Their attitude towards SSL/TLS is delightfully anachronistic.
+      </p></dd>
+
       <dt><a href="http://localhost/~msh/bobcat/">Bobcat</a></dt>
 
       <dd><p>
         Self-reference is not so vile a sin as self-neglect.
         Including this site for completeness.
       </p></dd>
-      
+
     </dl>
 
-    <h2>Entertainment</h2>
+    <h2>Pages of Note</h2>
 
     <dl>
 
-      <dt><a href="https://www.dailymail.co.uk/textbased/channel-561/index.html">Daily Mail Online (lite version)</a></dt>
+      <dt><a href="https://playbook.cio.gov/">The Digital Services Playbook</a></dt>
 
       <dd><p>
-        For people who like their news with a dash of infotainment, the Daily Mail provides a lite version of the day's events.
-        The text-based rendering isn't the best, you have to tab past quite a few topic headings before reaching the list of articles.
-        But articles seem to be rendered well once you get to them.
+        From the U.S. Digital Services, the playbook lists thirteen key "plays" describing successful "Best Common Practices."
       </p></dd>
-      
-    </dl>
-    
-    <h2>Home Pages</h2>
 
-    <dl>
+      <dt><a href="http://info.cern.ch/hypertext/WWW/TheProject.html">World Wide Web (The Project)</a></dt>
+
+      <dd><p>
+        This is the world's first web page, archived at CERN and is delightfully spartan.
+      </p></dd>
+
+      <dt><a href="https://scribe.rawbit.ninja/">Scribe (An alternative frontend to Medium)</a></dt>
+
+      <dd><p>
+        This is less of a "complete" service and more of a toolbox.
+        If you know the URL of a particular post on <a href="https://medium.com/">medium.com</a>, you can construct a URL by joining the front half of the scribe URL with the back half of the Medium URL to link to a page which renders nicely in text-based browsers.
+        A more-or-less complete HOWTO is provided at the page referenced above.
+      </p></dd>
+
+      <dt><a href="https://en.m.wikipedia.org/wiki/Main_Page">Wikipedia Mobile Site</a></dt>
+
+      <dd><p>
+        The Wikipedia's mobile site renders reasonably well in text-oriented browsers.
+        Finding the search box with EWW is difficult (it's between the "Wikipedia" and "Search" lines.)
+        But that's more of an issue with EWW and less to do with the Wikipedia.
+        It seems to render fine in Lynx.
+      </p></dd>
+
       <dt><a href="https://meadhbh.hamrick.rocks/">My Home Page</a></dt>
 
       <dd><p>
@@ -195,6 +284,6 @@
 
     <hr/>
 
-    <p>Last updated January 16th, 2025.</p>
+    <p>Last updated January 18th, 2025.</p>
 
 </html>
